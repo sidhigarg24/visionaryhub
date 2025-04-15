@@ -32,7 +32,7 @@
 | Database      | MongoDB Atlas                          |
 | Authentication| JWT, bcrypt                            |
 | AI API        | Clipdrop API                           |
-| Payments      | Stripe / Online Payment Gateway        |
+| Payments      | RazorPay / Online Payment Gateway        |
 | Deployment    | Vercel / Render (Optional)             |
 
 ---
@@ -69,7 +69,7 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 
 CLIPDROP_API_KEY=your_clipdrop_api_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
+RAZORPAY_SECRET_KEY=your_stripe_secret_key
 ```
 
 > 🧠 You can get your Clipdrop API key from: [https://clipdrop.co/apis/](https://clipdrop.co/apis/)
@@ -90,7 +90,7 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 - Full RESTful API with Express.js
 - JWT-based auth and session handling
 - Integration with Clipdrop API for AI generation
-- Stripe integration for secure credit purchases
+- RazorPay integration for secure credit purchases
 - Credit tracking and user role management
 - MongoDB for data persistence (users, credits, images)
 
@@ -99,7 +99,7 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 ## 📦 Key Dependencies
 
 - **Frontend:** React, Tailwind CSS, axios, react-router-dom
-- **Backend:** Express, Mongoose, bcrypt, JWT, Stripe
+- **Backend:** Express, Mongoose, bcrypt, JWT, RazorPay
 - **AI:** Clipdrop API
 - **Database:** MongoDB Atlas
 
