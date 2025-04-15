@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-🚀 Coming Soon...
+🚀 https://visionaryhub-frontend.onrender.com
 
 ---
 
