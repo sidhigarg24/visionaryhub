@@ -69,7 +69,7 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 
 CLIPDROP_API_KEY=your_clipdrop_api_key
-RAZORPAY_SECRET_KEY=your_stripe_secret_key
+RAZORPAY_SECRET_KEY=your_razorpay_secret_key
 ```
 
 > 🧠 You can get your Clipdrop API key from: [https://clipdrop.co/apis/](https://clipdrop.co/apis/)
