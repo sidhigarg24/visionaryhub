@@ -32,8 +32,8 @@
 | Database      | MongoDB Atlas                          |
 | Authentication| JWT, bcrypt                            |
 | AI API        | Clipdrop API                           |
-| Payments      | RazorPay / Online Payment Gateway        |
-| Deployment    | Vercel / Render (Optional)             |
+| Payments      | RazorPay / Online Payment Gateway      |
+| Deployment    |  Render                                |
 
 ---
 
